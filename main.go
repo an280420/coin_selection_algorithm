@@ -68,7 +68,7 @@ func change(coins []int, money int) []int {
 }
 
 // получает набор монет (массивом) и сумму которую необходиом набрать этим набором
-// набирает монеты для набора money (идем с конца к началу)
+// набирает монеты для набора money (идем от money к 0)
 func printChange(coins []int, money int) {
 	S := change(coins, money)
 
